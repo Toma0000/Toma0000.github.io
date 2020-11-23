@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		.babyOcto{
+			width:75px;
+			height:75px;
+/*			background-color:blue;
+*/			background-image:url(file:///Users/student/Desktop/Ninth%20Grade/Comp%20Sci/download-1-removebg-preview.png);
+			background-size:contain;
+			display:inline-block;
+			position:absolute;
+			transition:.5s;
+			background-repeat: no-repeat;
+		}
+
+		body{
+			background-image: url(https://images2.alphacoders.com/702/702311.jpg);
+			background-size:cover; 
+			background-repeat:no-repeat;
+
+		}
+	</style>
+</head>
+<body>
+
+
+
+	<script type="text/javascript">
+		
+		function makeOctopus(){
+			var octopus = document.createElement("div");
+			document.body.appendChild(octopus);
+			octopus.classList.add("babyOcto");
+
+			function position () {
+				// var randomNumber =Math.random()*800;
+				octopus.style.left = Math.random()*800 + "px";
+
+				octopus.style.top = Math.random()*800 + "px";
+
+
+		};//end of position function//
+
+		setInterval(position, 500)
+} //end of makeOctopus function//
+
+
+		setInterval(makeOctopus, 1000)
+
+		
+
+
+	</script>
+
+</body>
+</html>
