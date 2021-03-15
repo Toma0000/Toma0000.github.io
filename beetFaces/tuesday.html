@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+    #beet {
+        width: 600px;
+        height: 500px;
+        background-size: cover;
+        background-image: url(https://www.seekpng.com/png/detail/952-9527588_beet-clipart-transparent-beet-greens.png);
+    }
+
+    #face {
+/*        border: 1px solid black;
+*/        top: 55%;
+        left: 10%;
+        position: relative;
+        width: 300px;
+        height: 200px;
+        font-size:50px;
+    }
+
+    h1 {
+        font-family: courier;
+        font-size: 80px;
+    }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Eat your vegetables, Fred!</h1>
+        <div id="beet">
+            <div id="face"></div>
+        </div>
+
+        <audio id="splat" src="splat.mp3"></audio>
+
+
+
+
+
+    </center>
+    <script type="text/javascript">
+    var faces = ["( ͡° ʖ̯ ͡°)", "ಠ╭╮ಠ", "ᕕ༼✪ل͜✪༽ᕗ", "✌.|•͡˘‿•͡˘|.✌", "(ง ͡ʘ ͜ʖ ͡ʘ)ง", "(´･_･`)", "( ° ͜ʖ °)"];
+
+
+
+    var emoji = document.getElementById('face');
+    var splat = document.getElementById('splat');
+
+    emoji.addEventListener("click", function(){
+    	var fred = Math.round(Math.random()*6);
+    	console.log(fred);
+    	emoji.innerText = faces[fred];
+    	splat.play();
+    })
+
+
+    </script>
+</body>
+
+</html>

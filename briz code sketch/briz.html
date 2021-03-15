@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+    #briz {
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        /*			position:absolute;
+*/
+        /*			background-color:green;
+*/
+        background-image: url(liver.png);
+        background-size: contain;
+        animation-duration: 1s;
+        transition: 1s;
+        animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes dance {
+
+        0% {
+            transform: rotate(-90deg);
+        }
+
+
+
+        50% {
+            transform: rotate(90deg);
+        }
+
+        100% {
+            transform: rotate(-90deg);
+        }
+
+
+    }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>I live(r)<div id="briz"></div> for you</h1>
+    </center>
+
+
+
+    <script type="text/javascript">
+    var liver = document.getElementById('briz');
+
+
+
+    liver.addEventListener("click", 
+
+
+    	function() {
+
+
+        liver.style.animationName = "dance";
+
+
+       setTimeout(function(){}, 1000)
+
+    })
+    </script>
+</body>
+
+</html>

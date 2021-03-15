@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<style type="text/css">
+		
+
+.redstone{
+
+width:350px;
+height:350px;
+border:1px none;
+background-size:contain;
+background-repeat:no-repeat;
+transition: 1.5s;
+position:relative;
+display:inline-block;
+
+		}
+
+
+
+
+
+
+		#repeater{
+background-image:url(download-1.jpg);
+
+		}
+
+
+#comparator{
+background-image:url(download-2.jpg);
+
+		}
+
+
+#hopper{
+background-image:url(download-3.jpg);
+
+		}
+
+#dropper{
+background-image:url(download-4.jpg);
+
+		}
+
+#redstonedust {
+background-image:url(download-1.png);
+
+		}
+
+
+#redstonetorch{
+background-image:url(download.png);
+
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+
+	<center>
+
+<h2>
+	Go <a href="index.html">home</a>
+
+</h2>
+
+<h2>
+	Minecraft is a more complex game than some might originally think, with servers such as Hypuxel hosting games like Bedwars and Skywars, whose top players frequently win tournaments with cash prizes and have YouTube and Twitch channels with hundreds of thousands of subscribers. However, there is also what most think of when they think of Minecraft - a simple survival or creative world that one can generate and use as a canvas to let their imagination run free. In these worlds - which can be either single or multi player - there is something called redstone, which essentially acts like electricty in minecraft, conveying signals and using it to power machines that are sometimes very simple (like a lamp), or very complicated, like a multi-item automatic storage system, which can take hours to build and require a myriad of redstone related item - which I will now talk about here.
+	
+</h2>
+</center>
+
+<div id="repeater" class="redstone">
+
+</div>
+
+<div id="comparator" class="redstone">
+
+</div>
+
+<div id="hopper" class="redstone">
+
+</div>
+
+<div id="dropper" class="redstone">
+
+</div>
+
+
+<div id="redstonedust" class="redstone">
+
+</div>
+
+<div id="redstonetorch" class="redstone">
+
+</div>
+
+
+<div id="Tommy" class="redstone">
+
+</div>
+
+
+<script type="text/javascript">
+	
+var click=0;
+
+	repeater.addEventListener("click",function(){
+click=click+1;
+if (click%2==1) {repeater.innerText="A redstone repeater is a block used in redstone circuits to 'repeat' redstone signals back to full strength, delay signals, prevent signals moving backwards, or to 'lock' signals in one state. It can be set to 1, 2, 3, or 4 tick delays, each one representing .1 seconds."}
+
+else if (click%2==0) {repeater.innerText=""}
+
+	})
+
+
+
+</script>
+
+<script type="text/javascript">
+	comparator.addEventListener("click",function(){
+
+comparator.innerText="A  redstone comparator is a block used in redstone circuits to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers)."
+
+	})
+
+
+
+</script>
+
+<script type="text/javascript">
+	hopper.addEventListener("click",function(){
+
+hopper.innerText="A hopper tries to push, pull, and collect items using the leftmost available slot every .4 seconds. When a hopper is removing items from a chest, the items disappear from left to right. Similarly, when filling up a chest, the chest fills up from left to right. It can be pointed directly downwards or in every cardinal direction, and they can be used to transport items, acting like the pipes of minecraft."
+
+	})
+
+
+</script>
+
+<script type="text/javascript">
+	dropper.addEventListener("click",function(){
+
+dropper.innerText="A Dropper is a unique Redstone device that is a near-combination of the Hopper and the Dispenser. Droppers can transfer items from itself to a chest or another container when activated by a Redstone signal. Thus, they are also vital for transporting items."
+
+	})
+
+
+
+</script>
+
+<script type="text/javascript">
+	redstonetorch.addEventListener("click",function(){
+
+redstonetorch.innerText="A Redstone torch can provide a power source for Redstone Wires."
+
+	})
+
+
+
+</script>
+
+<script type="text/javascript">
+	redstonedust.addEventListener("click",function(){
+
+redstonedust.innerText="Redstone dust is used for brewing, crafting, and in redstone circuits by placing it on the ground to create redstone wire. It can also be used to make a redstone elevator, or to power pistons and sticky pistons."
+
+	})
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<style type="text/css">
+		
+<body>
+
+
+	<center>
+
+<h2>
+	Go <a href="index.html">home</a>
+
+</h2>
+
+<h2>
+	<center>
+	Minecraft is a more complex game than some might originally think, with servers such as Hypuxel hosting games like Bedwars and Skywars, whose top players frequently win tournaments with cash prizes and have YouTube and Twitch channels with hundreds of thousands of subscribers. However, there is also what most think of when they think of Minecraft - a simple survival or creative world that one can generate and use as a canvas to let their imagination run free. In these worlds - which can be either single or multi player - there is something called redstone, which essentially acts like electricty in minecraft, conveying signals and using it to power machines that are sometimes very simple (like a lamp), or very complicated, like a multi-item automatic storage system, which can take hours to build and require a myriad of redstone related item - which I will now talk about here.
+	</center>
+</h2>
+	
+.redstone{
+
+width:350px;
+height:350px;
+border:1px none;
+background-size:contain;
+background-repeat:repeat;
+transition: 1.5s;
+position:relative;
+display:inline-block;
+
+		}
+
+
+
+
+
+
+		#repeater{
+background-image:url(download-1.jpg);
+
+		}
+
+#repeater:hover{
+background-image:url(IMG_3983.png);
+
+}
+
+#comparator{
+background-image:url(download-2.jpg);
+
+		}
+
+#comparator:hover{
+background-image:url(IMG_4218.jpg);
+
+}
+
+#hopper{
+background-image:url(download-3.jpg);
+
+		}
+
+#hopper:hover{
+background-image:url(IMG_4220.jpg);
+
+}
+
+#dropper{
+background-image:url(download-4.jpg);
+
+		}
+
+#dropper:hover{
+background-image:url(IMG_4222.jpg);
+
+}
+
+#redstonedust {
+background-image:url(download-1.png);
+
+		}
+
+#redstonedust:hover{
+background-image:url(IMG_4374.jpg);
+
+}
+
+#redstonetorch{
+background-image:url(download.png);
+
+		}
+
+#redstonetorch:hover{
+background-image:url(IMG_4370.jpg);
+
+}
+
+	</style>
+</head>
+
+
+<body>
+
+<div id="repeater" class="redstone">
+
+</div>
+
+<div id="comparator" class="redstone">
+
+</div>
+
+<div id="hopper" class="redstone">
+
+</div>
+
+<div id="dropper" class="redstone">
+
+</div>
+
+
+<div id="redstonedust" class="redstone">
+
+</div>
+
+<div id="redstonetorch" class="redstone">
+
+</div>
+
+
+<div id="Tommy" class="redstone">
+
+</div>
+
+
+
+
+<div id="Tommy" class="recipe">
+
+</div>
+
+
+<div id="Tommy" class="recipe">
+
+</div>
+
+
+</body>
+</html>
